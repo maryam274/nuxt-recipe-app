@@ -1,0 +1,432 @@
+[
+    {
+        "id": 1,
+        "name": "Margherita Pizza",
+        "category": "pizza",
+        "image": "/images/margherita.jpg",
+        "price": "$12",
+        "offerPrice": "$10",
+        "time": "30 mins",
+        "rate": "4.8"
+    },
+    {
+        "id": 2,
+        "name": "Pepperoni Pizza",
+        "category": "pizza",
+        "image": "/images/pepperoni.jpg",
+        "price": "$15",
+        "offerPrice": "$13",
+        "time": "35 mins",
+        "rate": "4.7"
+    },
+    {
+        "id": 3,
+        "name": "BBQ Chicken Pizza",
+        "category": "pizza",
+        "image": "/images/bbq-chicken.jpg",
+        "price": "$16",
+        "offerPrice": "$14",
+        "time": "40 mins",
+        "rate": "4.9"
+    },
+    {
+        "id": 4,
+        "name": "Veggie Pizza",
+        "category": "pizza",
+        "image": "/images/veggie.jpg",
+        "price": "$14",
+        "offerPrice": "$12",
+        "time": "30 mins",
+        "rate": "4.5"
+    },
+    {
+        "id": 5,
+        "name": "Cheese Burst Pizza",
+        "category": "pizza",
+        "image": "/images/cheese-burst.jpg",
+        "price": "$18",
+        "offerPrice": "$15",
+        "time": "45 mins",
+        "rate": "4.6"
+    },
+    {
+        "id": 6,
+        "name": "Chicken Curry",
+        "category": "chicken",
+        "image": "/images/chicken-curry.jpg",
+        "price": "$15",
+        "offerPrice": "$12",
+        "time": "30 mins",
+        "rate": "4.5"
+    },
+    {
+        "id": 7,
+        "name": "Grilled Chicken",
+        "category": "chicken",
+        "image": "/images/grilled-chicken.jpg",
+        "price": "$17",
+        "offerPrice": "$14",
+        "time": "35 mins",
+        "rate": "4.8"
+    },
+    {
+        "id": 8,
+        "name": "Fried Chicken",
+        "category": "chicken",
+        "image": "/images/fried-chicken.jpg",
+        "price": "$14",
+        "offerPrice": "$12",
+        "time": "25 mins",
+        "rate": "4.7"
+    },
+    {
+        "id": 9,
+        "name": "Chicken Tikka",
+        "category": "chicken",
+        "image": "/images/chicken-tikka.jpg",
+        "price": "$16",
+        "offerPrice": "$13",
+        "time": "30 mins",
+        "rate": "4.6"
+    },
+    {
+        "id": 10,
+        "name": "Butter Chicken",
+        "category": "chicken",
+        "image": "/images/butter-chicken.jpg",
+        "price": "$18",
+        "offerPrice": "$15",
+        "time": "40 mins",
+        "rate": "4.9"
+    },
+    {
+        "name": "Apple Pie",
+        "category": "Dessert",
+        "image": "/images/apple-pie.jpg",
+        "id": 11,
+        "price": 7,
+        "offerPrice": 6.3,
+        "cookingTime": "12 mins",
+        "rate": 3.7
+    },
+    {
+        "name": "Avocado Toast",
+        "category": "Breakfast",
+        "image": "/images/avocado-toast.jpg",
+        "id": 12,
+        "price": 18,
+        "offerPrice": 16.2,
+        "cookingTime": "38 mins",
+        "rate": 4.8
+    },
+    {
+        "name": "BBQ Chicken",
+        "category": "Dinner",
+        "image": "/images/bbq-chicken.jpg",
+        "id": 13,
+        "price": 16,
+        "offerPrice": 14.4,
+        "cookingTime": "21 mins",
+        "rate": 4.6
+    },
+    {
+        "name": "BLT Sandwich",
+        "category": "Lunch",
+        "image": "/images/blt.jpg",
+        "id": 14,
+        "price": 18,
+        "offerPrice": 16.2,
+        "cookingTime": "23 mins",
+        "rate": 4.8
+    },
+    {
+        "name": "Brownies",
+        "category": "Dessert",
+        "image": "/images/brownies.jpg",
+        "id": 15,
+        "price": 15,
+        "offerPrice": 13.5,
+        "cookingTime": "20 mins",
+        "rate": 4.5
+    },
+    {
+        "name": "Bulgogi",
+        "category": "Asian",
+        "image": "/images/bulgogi.jpg",
+        "id": 16,
+        "price": 19,
+        "offerPrice": 17.1,
+        "cookingTime": "24 mins",
+        "rate": 4.9
+    },
+    {
+        "name": "California Roll",
+        "category": "Sushi",
+        "image": "/images/california-roll.jpg",
+        "id": 17,
+        "price": 13,
+        "offerPrice": 11.7,
+        "cookingTime": "18 mins",
+        "rate": 4.3
+    },
+    {
+        "name": "Carrot Cake",
+        "category": "Dessert",
+        "image": "/images/carrot-cake.jpg",
+        "id": 18,
+        "price": 14,
+        "offerPrice": 12.6,
+        "cookingTime": "34 mins",
+        "rate": 4.4
+    },
+    {
+        "name": "Cheesecake",
+        "category": "Dessert",
+        "image": "/images/cheesecake.jpg",
+        "id": 19,
+        "price": 14,
+        "offerPrice": 12.6,
+        "cookingTime": "19 mins",
+        "rate": 4.4
+    },
+    {
+        "name": "Chocolate Cake",
+        "category": "Dessert",
+        "image": "/images/chocolate-cake.jpg",
+        "id": 20,
+        "price": 17,
+        "offerPrice": 15.3,
+        "cookingTime": "22 mins",
+        "rate": 4.7
+    },
+    {
+        "name": "Crab Cakes",
+        "category": "Seafood",
+        "image": "/images/crab-cakes.jpg",
+        "id": 21,
+        "price": 12,
+        "offerPrice": 10.8,
+        "cookingTime": "17 mins",
+        "rate": 4.2
+    },
+    {
+        "name": "Dragon Roll",
+        "category": "Sushi",
+        "image": "/images/dragon-roll.jpg",
+        "id": 22,
+        "price": 7,
+        "offerPrice": 6.3,
+        "cookingTime": "12 mins",
+        "rate": 3.7
+    },
+    {
+        "name": "Fish Tacos",
+        "category": "Mexican",
+        "image": "/images/fish-tacos.jpg",
+        "id": 23,
+        "price": 7,
+        "offerPrice": 6.3,
+        "cookingTime": "12 mins",
+        "rate": 3.7
+    },
+    {
+        "name": "Fruit Bowl",
+        "category": "Healthy",
+        "image": "/images/fruit-bowl.jpg",
+        "id": 24,
+        "price": 10,
+        "offerPrice": 9.0,
+        "cookingTime": "30 mins",
+        "rate": 4.0
+    },
+    {
+        "name": "Garlic Shrimp",
+        "category": "Seafood",
+        "image": "/images/garlic-shrimp.jpg",
+        "id": 25,
+        "price": 12,
+        "offerPrice": 10.8,
+        "cookingTime": "32 mins",
+        "rate": 4.2
+    },
+    {
+        "name": "Green Smoothie",
+        "category": "Beverage",
+        "image": "/images/green-smoothie.jpg",
+        "id": 26,
+        "price": 7,
+        "offerPrice": 6.3,
+        "cookingTime": "12 mins",
+        "rate": 3.7
+    },
+    {
+        "name": "Grilled Cheese",
+        "category": "Lunch",
+        "image": "/images/grilled-cheese.jpg",
+        "id": 27,
+        "price": 18,
+        "offerPrice": 16.2,
+        "cookingTime": "23 mins",
+        "rate": 4.8
+    },
+    {
+        "name": "Grilled Salmon",
+        "category": "Seafood",
+        "image": "/images/grilled-salmon.jpg",
+        "id": 28,
+        "price": 14,
+        "offerPrice": 12.6,
+        "cookingTime": "19 mins",
+        "rate": 4.4
+    },
+    {
+        "name": "Kung Pao Chicken",
+        "category": "Asian",
+        "image": "/images/kung-pao.jpg",
+        "id": 29,
+        "price": 13,
+        "offerPrice": 11.7,
+        "cookingTime": "18 mins",
+        "rate": 4.3
+    },
+    {
+        "name": "Lobster Tail",
+        "category": "Seafood",
+        "image": "/images/lobster-tail.jpg",
+        "id": 30,
+        "price": 19,
+        "offerPrice": 17.1,
+        "cookingTime": "24 mins",
+        "rate": 4.9
+    },
+    {
+        "name": "Pad Thai",
+        "category": "Asian",
+        "image": "/images/pad-thai.jpg",
+        "id": 31,
+        "price": 6,
+        "offerPrice": 5.4,
+        "cookingTime": "26 mins",
+        "rate": 3.6
+    },
+    {
+        "name": "Panini",
+        "category": "Lunch",
+        "image": "/images/panini.jpg",
+        "id": 32,
+        "price": 10,
+        "offerPrice": 9.0,
+        "cookingTime": "30 mins",
+        "rate": 4.0
+    },
+    {
+        "name": "Philly Cheesesteak",
+        "category": "American",
+        "image": "/images/philly.jpg",
+        "id": 33,
+        "price": 15,
+        "offerPrice": 13.5,
+        "cookingTime": "35 mins",
+        "rate": 4.5
+    },
+    {
+        "name": "Quinoa Salad",
+        "category": "Healthy",
+        "image": "/images/quinoa-salad.jpg",
+        "id": 34,
+        "price": 12,
+        "offerPrice": 10.8,
+        "cookingTime": "17 mins",
+        "rate": 4.2
+    },
+    {
+        "name": "Red Velvet Cake",
+        "category": "Dessert",
+        "image": "/images/red-velvet.jpg",
+        "id": 35,
+        "price": 5,
+        "offerPrice": 4.5,
+        "cookingTime": "10 mins",
+        "rate": 3.5
+    },
+    {
+        "name": "Salmon Nigiri",
+        "category": "Sushi",
+        "image": "/images/salmon-nigiri.jpg",
+        "id": 36,
+        "price": 7,
+        "offerPrice": 6.3,
+        "cookingTime": "12 mins",
+        "rate": 3.7
+    },
+    {
+        "name": "Strawberry Shortcake",
+        "category": "Dessert",
+        "image": "/images/strawberry-shortcake.jpg",
+        "id": 37,
+        "price": 14,
+        "offerPrice": 12.6,
+        "cookingTime": "34 mins",
+        "rate": 4.4
+    },
+    {
+        "name": "Sweet and Sour Chicken",
+        "category": "Asian",
+        "image": "/images/sweet-sour.jpg",
+        "id": 38,
+        "price": 17,
+        "offerPrice": 15.3,
+        "cookingTime": "37 mins",
+        "rate": 4.7
+    },
+    {
+        "name": "Tempura Roll",
+        "category": "Sushi",
+        "image": "/images/tempura-roll.jpg",
+        "id": 39,
+        "price": 16,
+        "offerPrice": 14.4,
+        "cookingTime": "21 mins",
+        "rate": 4.6
+    },
+    {
+        "name": "Teriyaki Chicken",
+        "category": "Asian",
+        "image": "/images/teriyaki.jpg",
+        "id": 40,
+        "price": 16,
+        "offerPrice": 14.4,
+        "cookingTime": "36 mins",
+        "rate": 4.6
+    },
+    {
+        "name": "Tiramisu",
+        "category": "Dessert",
+        "image": "/images/tiramisu.jpg",
+        "id": 41,
+        "price": 13,
+        "offerPrice": 11.7,
+        "cookingTime": "33 mins",
+        "rate": 4.3
+    },
+    {
+        "name": "Tuna Roll",
+        "category": "Sushi",
+        "image": "/images/tuna-roll.jpg",
+        "id": 42,
+        "price": 12,
+        "offerPrice": 10.8,
+        "cookingTime": "17 mins",
+        "rate": 4.2
+    },
+    {
+        "name": "Vanilla Sponge Cake",
+        "category": "Dessert",
+        "image": "/images/vanilla-sponge.jpg",
+        "id": 43,
+        "price": 19,
+        "offerPrice": 17.1,
+        "cookingTime": "24 mins",
+        "rate": 4.9
+    }
+]
