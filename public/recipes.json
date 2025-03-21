@@ -106,7 +106,7 @@
         "id": 11,
         "price": 7,
         "offerPrice": 6.3,
-        "cookingTime": "12 mins",
+        "time": "12 mins",
         "rate": 3.7
     },
     {
@@ -116,7 +116,7 @@
         "id": 12,
         "price": 18,
         "offerPrice": 16.2,
-        "cookingTime": "38 mins",
+        "time": "38 mins",
         "rate": 4.8
     },
     {
@@ -126,7 +126,7 @@
         "id": 13,
         "price": 16,
         "offerPrice": 14.4,
-        "cookingTime": "21 mins",
+        "time": "21 mins",
         "rate": 4.6
     },
     {
@@ -136,7 +136,7 @@
         "id": 14,
         "price": 18,
         "offerPrice": 16.2,
-        "cookingTime": "23 mins",
+        "time": "23 mins",
         "rate": 4.8
     },
     {
@@ -146,7 +146,7 @@
         "id": 15,
         "price": 15,
         "offerPrice": 13.5,
-        "cookingTime": "20 mins",
+        "time": "20 mins",
         "rate": 4.5
     },
     {
@@ -156,7 +156,7 @@
         "id": 16,
         "price": 19,
         "offerPrice": 17.1,
-        "cookingTime": "24 mins",
+        "time": "24 mins",
         "rate": 4.9
     },
     {
@@ -166,7 +166,7 @@
         "id": 17,
         "price": 13,
         "offerPrice": 11.7,
-        "cookingTime": "18 mins",
+        "time": "18 mins",
         "rate": 4.3
     },
     {
@@ -176,7 +176,7 @@
         "id": 18,
         "price": 14,
         "offerPrice": 12.6,
-        "cookingTime": "34 mins",
+        "time": "34 mins",
         "rate": 4.4
     },
     {
@@ -186,7 +186,7 @@
         "id": 19,
         "price": 14,
         "offerPrice": 12.6,
-        "cookingTime": "19 mins",
+        "time": "19 mins",
         "rate": 4.4
     },
     {
@@ -196,7 +196,7 @@
         "id": 20,
         "price": 17,
         "offerPrice": 15.3,
-        "cookingTime": "22 mins",
+        "time": "22 mins",
         "rate": 4.7
     },
     {
@@ -206,7 +206,7 @@
         "id": 21,
         "price": 12,
         "offerPrice": 10.8,
-        "cookingTime": "17 mins",
+        "time": "17 mins",
         "rate": 4.2
     },
     {
@@ -216,7 +216,7 @@
         "id": 22,
         "price": 7,
         "offerPrice": 6.3,
-        "cookingTime": "12 mins",
+        "time": "12 mins",
         "rate": 3.7
     },
     {
@@ -226,7 +226,7 @@
         "id": 23,
         "price": 7,
         "offerPrice": 6.3,
-        "cookingTime": "12 mins",
+        "time": "12 mins",
         "rate": 3.7
     },
     {
@@ -236,7 +236,7 @@
         "id": 24,
         "price": 10,
         "offerPrice": 9.0,
-        "cookingTime": "30 mins",
+        "time": "30 mins",
         "rate": 4.0
     },
     {
@@ -246,7 +246,7 @@
         "id": 25,
         "price": 12,
         "offerPrice": 10.8,
-        "cookingTime": "32 mins",
+        "time": "32 mins",
         "rate": 4.2
     },
     {
@@ -256,7 +256,7 @@
         "id": 26,
         "price": 7,
         "offerPrice": 6.3,
-        "cookingTime": "12 mins",
+        "time": "12 mins",
         "rate": 3.7
     },
     {
@@ -266,7 +266,7 @@
         "id": 27,
         "price": 18,
         "offerPrice": 16.2,
-        "cookingTime": "23 mins",
+        "time": "23 mins",
         "rate": 4.8
     },
     {
@@ -276,7 +276,7 @@
         "id": 28,
         "price": 14,
         "offerPrice": 12.6,
-        "cookingTime": "19 mins",
+        "time": "19 mins",
         "rate": 4.4
     },
     {
@@ -286,7 +286,7 @@
         "id": 29,
         "price": 13,
         "offerPrice": 11.7,
-        "cookingTime": "18 mins",
+        "time": "18 mins",
         "rate": 4.3
     },
     {
@@ -296,7 +296,7 @@
         "id": 30,
         "price": 19,
         "offerPrice": 17.1,
-        "cookingTime": "24 mins",
+        "time": "24 mins",
         "rate": 4.9
     },
     {
@@ -306,7 +306,7 @@
         "id": 31,
         "price": 6,
         "offerPrice": 5.4,
-        "cookingTime": "26 mins",
+        "time": "26 mins",
         "rate": 3.6
     },
     {
@@ -316,7 +316,7 @@
         "id": 32,
         "price": 10,
         "offerPrice": 9.0,
-        "cookingTime": "30 mins",
+        "time": "30 mins",
         "rate": 4.0
     },
     {
@@ -326,7 +326,7 @@
         "id": 33,
         "price": 15,
         "offerPrice": 13.5,
-        "cookingTime": "35 mins",
+        "time": "35 mins",
         "rate": 4.5
     },
     {
@@ -336,7 +336,7 @@
         "id": 34,
         "price": 12,
         "offerPrice": 10.8,
-        "cookingTime": "17 mins",
+        "time": "17 mins",
         "rate": 4.2
     },
     {
@@ -346,7 +346,7 @@
         "id": 35,
         "price": 5,
         "offerPrice": 4.5,
-        "cookingTime": "10 mins",
+        "time": "10 mins",
         "rate": 3.5
     },
     {
@@ -356,7 +356,7 @@
         "id": 36,
         "price": 7,
         "offerPrice": 6.3,
-        "cookingTime": "12 mins",
+        "time": "12 mins",
         "rate": 3.7
     },
     {
@@ -366,7 +366,7 @@
         "id": 37,
         "price": 14,
         "offerPrice": 12.6,
-        "cookingTime": "34 mins",
+        "time": "34 mins",
         "rate": 4.4
     },
     {
@@ -376,7 +376,7 @@
         "id": 38,
         "price": 17,
         "offerPrice": 15.3,
-        "cookingTime": "37 mins",
+        "time": "37 mins",
         "rate": 4.7
     },
     {
@@ -386,7 +386,7 @@
         "id": 39,
         "price": 16,
         "offerPrice": 14.4,
-        "cookingTime": "21 mins",
+        "time": "21 mins",
         "rate": 4.6
     },
     {
@@ -396,7 +396,7 @@
         "id": 40,
         "price": 16,
         "offerPrice": 14.4,
-        "cookingTime": "36 mins",
+        "time": "36 mins",
         "rate": 4.6
     },
     {
@@ -406,7 +406,7 @@
         "id": 41,
         "price": 13,
         "offerPrice": 11.7,
-        "cookingTime": "33 mins",
+        "time": "33 mins",
         "rate": 4.3
     },
     {
@@ -416,7 +416,7 @@
         "id": 42,
         "price": 12,
         "offerPrice": 10.8,
-        "cookingTime": "17 mins",
+        "time": "17 mins",
         "rate": 4.2
     },
     {
@@ -426,7 +426,7 @@
         "id": 43,
         "price": 19,
         "offerPrice": 17.1,
-        "cookingTime": "24 mins",
+        "time": "24 mins",
         "rate": 4.9
     }
 ]

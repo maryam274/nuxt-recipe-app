@@ -1,9 +1,5 @@
 <template>
     <div>
-        <!-- <header class="bg-orange-500 text-white py-6">
-            <h1 class="text-4xl font-bold text-center">Our Recipes</h1>
-        </header> -->
-
         <!-- Search and Category Filters -->
         <div class="flex justify-between items-center mb-8 ml-3 mr-4">
             <div class="flex items-center w-full max-w-3xl bg-white px-8 py-2 rounded-full shadow-lg mt-5 mr-5">
@@ -30,15 +26,20 @@
                     </ul>
                 </div>
             </div>
-        </div> 
+        </div>
+
+        <!-- Loading Spinner -->
+        <div v-if="loading" class="flex justify-center items-center h-64">
+            <div class="loader"></div>
+        </div>
 
         <!-- Recipe Cards Grid -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 m-5">
+        <div v-else class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 m-5">
             <RecipeCard v-for="recipe in paginatedRecipes" :key="recipe.id" :recipe="recipe" />
         </div>
 
         <!-- Pagination Controls -->
-        <div class="flex justify-center items-center mt-8">
+        <div v-if="!loading" class="flex justify-center items-center mt-8">
             <button @click="prevPage" :disabled="currentPage === 1"
                 class="px-4 py-2 bg-gray-200 rounded-full mr-2 disabled:opacity-50">
                 &laquo;
@@ -66,6 +67,7 @@ const currentPage = ref(1);
 const itemsPerPage = 12;
 const searchQuery = ref('');
 const selectedCategory = ref('');
+const loading = ref(true); // Loading state
 
 // Toggle filter dropdown
 const toggleFilter = () => {
@@ -82,6 +84,7 @@ const selectCategory = (category) => {
 // Fetch recipes from `recipes.json`
 const fetchRecipes = async () => {
     try {
+        loading.value = true; // Start loading
         const response = await fetch('/recipes.json'); // Ensure it's inside `public/`
         const data = await response.json();
         recipes.value = data || [];
@@ -92,6 +95,8 @@ const fetchRecipes = async () => {
     } catch (error) {
         console.error('Error loading recipes:', error);
         recipes.value = [];
+    } finally {
+        loading.value = false; // Stop loading
     }
 };
 
@@ -123,3 +128,25 @@ const prevPage = () => { if (currentPage.value > 1) currentPage.value--; };
 const nextPage = () => { if (currentPage.value < totalPages.value) currentPage.value++; };
 const goToPage = (page) => { currentPage.value = page; };
 </script>
+
+<style>
+/* Add a simple loader animation */
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #FF6B00;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+</style>
